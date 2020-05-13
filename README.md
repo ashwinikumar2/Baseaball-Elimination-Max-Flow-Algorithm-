@@ -15,10 +15,6 @@ problem is not as easy as many sports writers would have you believe, in part
 because the answer depends not only on the number of games won and left
 to play, but also on the schedule of remaining games. To see the
 complication, consider the following scenario:
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 
 | Team          | Wins | Loss | Left | Atl | Phi | NY  | Mon |
 | ------------- | ---- | ---- |----- | --- | --- | --- | --- |
@@ -89,7 +85,7 @@ arcs leaving s then there is no scenario in which team x wins the division.
 
 ![Screenshot from 2020-05-13 06-55-47](https://user-images.githubusercontent.com/53982432/81761484-ac761f00-94e7-11ea-84ac-8c5d92ca9f94.png)
 
-What the min cut tells us. By solving a max flow problem, we can
+**What the min cut tells us** By solving a max flow problem, we can
 determine which teams are mathematically eliminated. It would be nice if we
 could also explain the reason for a team's elimination to a friend without
 resorting to network flow theory. Here's a more convincing and succinct
@@ -111,24 +107,17 @@ min cuts to find the subset R, once we have it, the argument for a team's
 elimination does not involve any sophisticated mathematics.
 
 **Problem**: Write a program that reads in a sports league and prints
-out a list of all ofrcs leaving s then there is no scenario in which team x wins the division.
-2 of 4
-07/05/20, 2:44 amCOS 226 Programming Assignment: Baseball El...
-https://www.cs.princeton.edu/courses/archive/sp...
-What the min cut tells us. By solving a max flow problem, we can
-determine which teams are mathematically eliminated. It would be nice if we
-could also explain the reason for a team's elimination to a friend without
-resorting t the teams that are mathematically eliminated. For each
-team, give a convincing reason why of the form described above. For
-example, on the input file input4.txt ,
+out a list of all of the teams that are mathematically eliminated. For each
+team, give a convincing reason why of the form described above.
+
+**INPUT:**
 4
 Atlanta       83   71   8      0   1   6   1
 Philadelphia  80   79   3      1   0   0   2
 New_York      78   78   6      6   0   0   0
 Montreal      77   82   3      1   2   0   0
 
-Program output should be something like: 
-
+**OUTPUT:** 
 Philadelphia is eliminated.
 They can win at most 80 + 3 = 83 games.
 Atlanta and New York have won a total of 161 games.
@@ -145,11 +134,4 @@ So on average, each of the teams in this group wins 83/1 = 83 games.
 case in Major League Baseball). Also assume that there are no rainouts, i.e.,
 every scheduled game is played. Ignore wildcard possibilities, i.e., when a
 team can make the playoffs without finishing first in its division. Finally,
-assume that there are no whitespace characters in the name of a team.rcs leaving s then there is no scenario in which team x wins the division.
-2 of 4
-07/05/20, 2:44 amCOS 226 Programming Assignment: Baseball El...
-https://www.cs.princeton.edu/courses/archive/sp...
-What the min cut tells us. By solving a max flow problem, we can
-determine which teams are mathematically eliminated. It would be nice if we
-could also explain the reason for a team's elimination to a friend without
-resorting t
+assume that there are no whitespace characters in the name of a team.
