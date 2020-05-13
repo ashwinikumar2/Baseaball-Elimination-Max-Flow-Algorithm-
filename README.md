@@ -40,8 +40,7 @@ August 30, 1996. Note that a team's total number of remaining games does
 not necessarily equal the number of remaining games against divisional
 rivals since teams may play opponents outside of their own division.
 
-------------------------------------------------
-                                  Against
+                                 | Against|
 |Team       |  Wins| Loss| Left | NY  |Bal |Bor| Tor| Det|
 |----------|--------|---|-----|---|----|---|---|---|
 |New_York   |   75  | 59  | 21 |   0  | 3 |  8  | 7 |  3|
