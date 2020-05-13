@@ -110,8 +110,8 @@ elimination does not involve any sophisticated mathematics.
 out a list of all of the teams that are mathematically eliminated. For each
 team, give a convincing reason why of the form described above.
 
-**INPUT:**
-4
+**INPUT:**\
+4\
 Atlanta       83 71  8  0 1 6 1\
 Philadelphia  80 79  3  1 0 0 2\
 New_York      78 78  6  6 0 0 0\
