@@ -42,13 +42,13 @@ rivals since teams may play opponents outside of their own division.
 
 ------------------------------------------------
                                   Against
-Team         Wins Loss Left  NY  Bal Bos Tor Det
-------------------------------------------------
-New_York      75   59   21    0   3   8   7   3
-Baltimore     71   63   16    3   0   2   7   4
-Boston        69   66   10    8   2   0   0   0
-Toronto       63   72   14    7   7   0   0   0
-Detroit       49   86    7    3   4   0   0   0
+|Team       |  Wins| Loss| Left | NY  |Bal |Bor| Tor| Det|
+|----------|--------|---|-----|---|----|---|---|---|
+|New_York   |   75  | 59  | 21 |   0  | 3 |  8  | 7 |  3|
+|Baltimore |    71   |63  | 16  |  3  | 0  | 2  | 7  | 4|
+|Boston   |     69   |66  | 10   | 8  | 2  | 0  | 0  | 0|
+|Toronto |      63   |72  | 14   | 7  | 7  | 0  | 0  | 0|
+|Detroit|       49   |86 |   7   | 3 |  4   |0 |  0  | 0|
 
 At first (or second) glance it might appear that Detroit still has a remote
 chance of catching New York and winning the division since Detroit can
