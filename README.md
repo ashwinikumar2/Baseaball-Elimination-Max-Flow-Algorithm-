@@ -85,7 +85,7 @@ corresponds to assigning winners to all of the remaining games in such a way
 that no team wins more games than x . If the max flow does not saturate all
 arcs leaving s then there is no scenario in which team x wins the division.
 
-file:///home/ash/Pictures/Screenshot%20from%202020-05-13%2006-55-47.png
+https://www.cs.princeton.edu/courses/archive/sp...
 
 What the min cut tells us. By solving a max flow problem, we can
 determine which teams are mathematically eliminated. It would be nice if we
@@ -99,6 +99,7 @@ Collectively, they have 278 wins among them. There are 3 + 8 + 7 + 2 + 7 =
 at least 27 more games. On average, the teams in R win at least 305 / 4 =
 76.25 games. Regardless of the outcome, one team in R will win at least 77
 games, thereby eliminating Detroit.
+
 In fact, when a team is mathematically eliminated there always exists such a
 convincing certificate of elimination, although the subset of teams R may not
 be the rest of the division as it is above. However, you can always find such a
@@ -106,69 +107,47 @@ subset R by choosing the team vertices on the source side of a min s-t cut in
 the baseball elimination network. Note that although we use max flows and
 min cuts to find the subset R, once we have it, the argument for a team's
 elimination does not involve any sophisticated mathematics.
-Your assignment. Write a program that reads in a sports league and prints
-out a list of all of the teams that are mathematically eliminated. For each
+
+**Problem**: Write a program that reads in a sports league and prints
+out a list of all ofrcs leaving s then there is no scenario in which team x wins the division.
+2 of 4
+07/05/20, 2:44 amCOS 226 Programming Assignment: Baseball El...
+https://www.cs.princeton.edu/courses/archive/sp...
+What the min cut tells us. By solving a max flow problem, we can
+determine which teams are mathematically eliminated. It would be nice if we
+could also explain the reason for a team's elimination to a friend without
+resorting t the teams that are mathematically eliminated. For each
 team, give a convincing reason why of the form described above. For
 example, on the input file input4.txt ,
 4
-Atlanta
-Philadelphia
-New_York
-Montreal
-83
-80
-78
-77
-71
-79
-78
-82
-8
-3
-6
-3
-0
-1
-6
-1
-1
-0
-0
-2
-6
-0
-0
-0
-1
-2
-0
-0
-your program should output something like
+Atlanta       83   71   8      0   1   6   1
+Philadelphia  80   79   3      1   0   0   2
+New_York      78   78   6      6   0   0   0
+Montreal      77   82   3      1   2   0   0
+
+Program output should be something like: 
+
 Philadelphia is eliminated.
 They can win at most 80 + 3 = 83 games.
 Atlanta and New York have won a total of 161 games.
 They play each other 6 times.
 So on average, each of the teams wins 167/2 = 83.5 games.
+
 Montreal is eliminated.
 They can win at most 77 + 3 = 80 games.
 Atlanta has won a total of 83 games.
 They play each other 0 times.
 So on average, each of the teams in this group wins 83/1 = 83 games.
-Simplifying assumptions. Assume that no games end in a tie (as is the
+
+**Simplifying assumptions** Assume that no games end in a tie (as is the
 case in Major League Baseball). Also assume that there are no rainouts, i.e.,
 every scheduled game is played. Ignore wildcard possibilities, i.e., when a
 team can make the playoffs without finishing first in its division. Finally,
-assume that there are no whitespace characters in the name of a team.
-Deliverables. Submit all of the source code necessary to run your program
-(except StdIn.java ) and an accompanying readme.txt file that documents what
-3 of 4
+assume that there are no whitespace characters in the name of a team.rcs leaving s then there is no scenario in which team x wins the division.
+2 of 4
 07/05/20, 2:44 amCOS 226 Programming Assignment: Baseball El...
 https://www.cs.princeton.edu/courses/archive/sp...
-you did. Name your main program BaseballEliminator.java . On this assignment,
-your main goal is to determine the correct answer and interpret your
-solution. Do not worry about over optimizing your program because the data
-sets that come from real applications are quite small.
-This assignment was developed by Kevin Wayne.
-Copyright © 2003.
-4 of 4
-07/05/20, 2:44 am
+What the min cut tells us. By solving a max flow problem, we can
+determine which teams are mathematically eliminated. It would be nice if we
+could also explain the reason for a team's elimination to a friend without
+resorting t
