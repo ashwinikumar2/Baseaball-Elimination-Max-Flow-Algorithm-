@@ -85,7 +85,7 @@ corresponds to assigning winners to all of the remaining games in such a way
 that no team wins more games than x . If the max flow does not saturate all
 arcs leaving s then there is no scenario in which team x wins the division.
 
-https://www.cs.princeton.edu/courses/archive/sp...
+![Screenshot from 2020-05-13 06-55-47](https://user-images.githubusercontent.com/53982432/81761484-ac761f00-94e7-11ea-84ac-8c5d92ca9f94.png)
 
 What the min cut tells us. By solving a max flow problem, we can
 determine which teams are mathematically eliminated. It would be nice if we
