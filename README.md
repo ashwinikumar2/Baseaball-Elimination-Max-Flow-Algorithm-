@@ -15,7 +15,6 @@ problem is not as easy as many sports writers would have you believe, in part
 because the answer depends not only on the number of games won and left
 to play, but also on the schedule of remaining games. To see the
 complication, consider the following scenario:
-| |  || | Against|
 | ------------- | ---- | ---- |----- | --- | --- | --- | --- |
 | Team          | Wins | Loss | Left | Atl | Phi | NY  | Mon |
 | ------------- | ---- | ---- |----- | --- | --- | --- | --- |
