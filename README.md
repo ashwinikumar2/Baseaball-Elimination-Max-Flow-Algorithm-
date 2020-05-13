@@ -20,12 +20,12 @@ complication, consider the following scenario:
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
-| Team || Wins || Loss || Left || Atl || Phi || NY || Mon |
-|------------||------||------||------||-----||-----||----||-----|
-| Atlanta ||  83  ||  71  ||   8  ||  0  ||  1  ||  6 ||  1  |
-| Philadelphia ||  80  ||  79  ||   3  ||  1  ||  0  ||  0 ||  2  |
-| New_York ||  78  ||  78  ||   6  ||  6  ||  0  ||  0 ||  0  |
-| Montreal ||  77  ||  82  ||   3  ||  1  ||  2  ||  0 ||  0  |
+| Team          | Wins | Loss | Left | Atl | Phi | NY  | Mon |
+| ------------- | ---- | ---- |----- | --- | --- | --- | --- |
+| Atlanta       |  83  |  71  |   8  |  0  |  1  |  6  |  1  |
+| Philadelphia  |  80  |  79  |   3  |  1  |  0  |  0  |  2  |
+| New_York      |  78  |  78  |   6  |  6  |  0  |  0  |  0  |
+| Montreal      |  77  |  82  |   3  |  1  |  2  |  0  |  0  |
  
 Montreal is mathematically eliminated since it can finish with at most 80
 wins and Atlanta already has 83 wins. This is the simplest reason for
