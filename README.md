@@ -112,23 +112,23 @@ team, give a convincing reason why of the form described above.
 
 **INPUT:**
 4
-Atlanta       83   71   8      0   1   6   1
-Philadelphia  80   79   3      1   0   0   2
-New_York      78   78   6      6   0   0   0
-Montreal      77   82   3      1   2   0   0
+| Atlanta       |  83  |  71  |   8  |  0  |  1  |  6  |  1  |
+| Philadelphia  |  80  |  79  |   3  |  1  |  0  |  0  |  2  |
+| New_York      |  78  |  78  |   6  |  6  |  0  |  0  |  0  |
+| Montreal      |  77  |  82  |   3  |  1  |  2  |  0  |  0  |
 
 **OUTPUT:** 
-Philadelphia is eliminated.
-They can win at most 80 + 3 = 83 games.
-Atlanta and New York have won a total of 161 games.
-They play each other 6 times.
-So on average, each of the teams wins 167/2 = 83.5 games.
+Philadelphia is eliminated.\
+They can win at most 80 + 3 = 83 games.\
+Atlanta and New York have won a total of 161 games.\
+They play each other 6 times.\
+So on average, each of the teams wins 167/2 = 83.5 games.\
 
-Montreal is eliminated.
-They can win at most 77 + 3 = 80 games.
-Atlanta has won a total of 83 games.
-They play each other 0 times.
-So on average, each of the teams in this group wins 83/1 = 83 games.
+Montreal is eliminated.\
+They can win at most 77 + 3 = 80 games.\
+Atlanta has won a total of 83 games.\
+They play each other 0 times.\
+So on average, each of the teams in this group wins 83/1 = 83 games.\
 
 **Simplifying assumptions** Assume that no games end in a tie (as is the
 case in Major League Baseball). Also assume that there are no rainouts, i.e.,
