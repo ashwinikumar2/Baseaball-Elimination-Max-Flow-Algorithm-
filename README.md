@@ -112,10 +112,10 @@ team, give a convincing reason why of the form described above.
 
 **INPUT:**
 4
-| Atlanta       |  83  |  71  |   8  |  0  |  1  |  6  |  1  |
-| Philadelphia  |  80  |  79  |   3  |  1  |  0  |  0  |  2  |
-| New_York      |  78  |  78  |   6  |  6  |  0  |  0  |  0  |
-| Montreal      |  77  |  82  |   3  |  1  |  2  |  0  |  0  |
+Atlanta       83 71  8  0 1 6 1\
+Philadelphia  80 79  3  1 0 0 2\
+New_York      78 78  6  6 0 0 0\
+Montreal      77 82  3  1 2 0 0\
 
 **OUTPUT:** 
 Philadelphia is eliminated.\
