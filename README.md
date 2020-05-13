@@ -15,7 +15,7 @@ problem is not as easy as many sports writers would have you believe, in part
 because the answer depends not only on the number of games won and left
 to play, but also on the schedule of remaining games. To see the
 complication, consider the following scenario:
-| ------------- | ---- | ---- |----- | --- | --- | --- | --- |
+
 | Team          | Wins | Loss | Left | Atl | Phi | NY  | Mon |
 | ------------- | ---- | ---- |----- | --- | --- | --- | --- |
 | Atlanta       |  83  |  71  |   8  |  0  |  1  |  6  |  1  |
@@ -40,7 +40,6 @@ August 30, 1996. Note that a team's total number of remaining games does
 not necessarily equal the number of remaining games against divisional
 rivals since teams may play opponents outside of their own division.
 
-                                 | Against|
 |Team       |  Wins| Loss| Left | NY  |Bal |Bor| Tor| Det|
 |----------|--------|---|-----|---|----|---|---|---|
 |New_York   |   75  | 59  | 21 |   0  | 3 |  8  | 7 |  3|
