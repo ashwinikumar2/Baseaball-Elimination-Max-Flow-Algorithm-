@@ -1,6 +1,6 @@
 # Baseaball-Elimination-Max-Flow-Algorithm-
-Implementation of the baseball elimination problem using Max Flow algorithm
-                      **Baseball Elimination Problem**
+Implementation of the baseball elimination problem using Max Flow algorithm\
+                      **Baseball Elimination Problem**\
 
 Given the standings in a sports league at some point during the season,
 determine which teams have been mathematically eliminated from winning
