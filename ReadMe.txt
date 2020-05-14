@@ -1,9 +1,5 @@
-MTL342 ASSIGNMENT (BASEBALL ELIMINATION)
-
-NAME: ASHWINI KUMAR
-ENTRY NUMBER: 2018MT60778
-LANGUAGE: C++
-
+Licensed to Ashwini Kumar
+Github: ashwinikumar2
 
 HOW TO COMPILE AND EXECUTE THE CODE?
 
@@ -92,4 +88,3 @@ OVERALL TOP VIEW OF THE PROGRAM:
 The program takes input from a file "input.txt" having the league table of a tournament and output which teams are eliminated from the league tournament which many newspapers often get wrong. Although, the program uses max flow algorithm still the output contains a convincing certificate of elimination which can be explained to anyone easily.
 
 Thanks
-
