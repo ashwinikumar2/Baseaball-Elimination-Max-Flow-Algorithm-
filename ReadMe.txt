@@ -1,7 +1,7 @@
 Licensed to Ashwini Kumar
 Github: ashwinikumar2 
 
-HOW TO COMPILE AND EXECUTE THE CODE?
+**HOW TO COMPILE AND EXECUTE THE CODE?**
 
 The program is written in c++. The zip folder contains two files only- BaseballEliminator.cpp and ReadMe.txt. The BaseballEliminator.cpp takes input from a file "input.txt" which should be changed accordingly. So, in order to execute the code on Linux(Ubuntu) type on the terminal. 
 
