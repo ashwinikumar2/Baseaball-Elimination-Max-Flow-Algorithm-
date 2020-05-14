@@ -6,7 +6,7 @@ Given the standings in a sports league at some point during the season,
 determine which teams have been mathematically eliminated from winning
 their division.
 
-##The-baseball-elimination-problem:- In the baseball elimination problem,
+**The baseball elimination problem:** In the baseball elimination problem,
 there is a league consisting of N teams. At some point during the season,
 team i has w[i] wins and g[i][j] games left to play against team j. A team is
 eliminated if it cannot possibly finish the season in first place or tied for first
@@ -54,7 +54,7 @@ finish with as many as 76 wins. Try to convince yourself that this is not the
 case and that Detroit is already mathematically eliminated. Here's one
 explanation. We provide a simpler explanation below.
 
-##A maximum flow formulation: We now solve the baseball elimination
+**A maximum flow formulation:** We now solve the baseball elimination
 problem by reducing it to the maximum flow problem. To check whether or
 not one particular team x is eliminated, we create a network and solve a
 maximum flow problem in it. In the network, feasible integral flows
@@ -83,7 +83,7 @@ arcs leaving s then there is no scenario in which team x wins the division.
 
 ![Screenshot from 2020-05-13 06-55-47](https://user-images.githubusercontent.com/53982432/81761484-ac761f00-94e7-11ea-84ac-8c5d92ca9f94.png)
 
-##**What the min cut tells us** By solving a max flow problem, we can
+**What the min cut tells us** By solving a max flow problem, we can
 determine which teams are mathematically eliminated. It would be nice if we
 could also explain the reason for a team's elimination to a friend without
 resorting to network flow theory. Here's a more convincing and succinct
@@ -104,18 +104,18 @@ the baseball elimination network. Note that although we use max flows and
 min cuts to find the subset R, once we have it, the argument for a team's
 elimination does not involve any sophisticated mathematics.
 
-##**Problem**: Write a program that reads in a sports league and prints
+**Problem**: Write a program that reads in a sports league and prints
 out a list of all of the teams that are mathematically eliminated. For each
 team, give a convincing reason why of the form described above.
 
-##**INPUT:**\
+**INPUT:**\
 4\
 Atlanta       83 71  8  0 1 6 1\
 Philadelphia  80 79  3  1 0 0 2\
 New_York      78 78  6  6 0 0 0\
 Montreal      77 82  3  1 2 0 0
 
-##**OUTPUT:** 
+**OUTPUT:** 
 Philadelphia is eliminated.\
 They can win at most 80 + 3 = 83 games.\
 Atlanta and New York have won a total of 161 games.\
@@ -128,15 +128,15 @@ Atlanta has won a total of 83 games.\
 They play each other 0 times.\
 So on average, each of the teams in this group wins 83/1 = 83 games.
 
-##**Simplifying assumptions** Assume that no games end in a tie (as is the
+**Simplifying assumptions** Assume that no games end in a tie (as is the
 case in Major League Baseball). Also assume that there are no rainouts, i.e.,
 every scheduled game is played. Ignore wildcard possibilities, i.e., when a
 team can make the playoffs without finishing first in its division. Finally,
 assume that there are no whitespace characters in the name of a team.
 
-#**EXPLAINATION OF THE PROGRAM**
+**EXPLAINATION OF THE PROGRAM**
 
-##**HOW TO COMPILE AND EXECUTE THE CODE?**
+**HOW TO COMPILE AND EXECUTE THE CODE?**
 
 The program is written in c++. The zip folder contains two files only- BaseballEliminator.cpp and ReadMe.txt. The BaseballEliminator.cpp takes input from a file "input.txt" which should be changed accordingly. So, in order to execute the code on Linux(Ubuntu) type on the terminal. 
 
@@ -146,7 +146,7 @@ g++ BaseballEliminator.cpp
 Or the code can directly be compiled over any compiler. 
 
 
-##**PURPOSE OF EACH SOURCE FILES:**
+**PURPOSE OF EACH SOURCE FILES:**
 There is only one source file in the zip folder which can be summarised as below:
 
 **vector<int> g:** It is the adjacency matrix which contains the information about matches left and who plays those matches exactly.
@@ -219,7 +219,7 @@ Since it isn't easy to explain the concept of min-cut to everyone so we can prov
 TIME COMPLEXITY OF THE PROGRAM: O(V*max_flow*E) where V is the number of teams in the tournament & E is the number of edges
 SPACE COMPLEXITY OF THE PROGRAM: O(V^4) where V is the number of teams in the tournament used up in 'graph' and 'rGraph'
 
-##**OVERALL TOP VIEW OF THE PROGRAM:**
+**OVERALL TOP VIEW OF THE PROGRAM:**
 The program takes input from a file "input.txt" having the league table of a tournament and output which teams are eliminated from the league tournament which many newspapers often get wrong. Although, the program uses max flow algorithm still the output contains a convincing certificate of elimination which can be explained to anyone easily.
 
 Thanks
