@@ -6,7 +6,7 @@ Given the standings in a sports league at some point during the season,
 determine which teams have been mathematically eliminated from winning
 their division.
 
-##**The baseball elimination problem**: In the baseball elimination problem,
+##The-baseball-elimination-problem:- In the baseball elimination problem,
 there is a league consisting of N teams. At some point during the season,
 team i has w[i] wins and g[i][j] games left to play against team j. A team is
 eliminated if it cannot possibly finish the season in first place or tied for first
@@ -54,7 +54,7 @@ finish with as many as 76 wins. Try to convince yourself that this is not the
 case and that Detroit is already mathematically eliminated. Here's one
 explanation. We provide a simpler explanation below.
 
-##**A maximum flow formulation** We now solve the baseball elimination
+##A maximum flow formulation: We now solve the baseball elimination
 problem by reducing it to the maximum flow problem. To check whether or
 not one particular team x is eliminated, we create a network and solve a
 maximum flow problem in it. In the network, feasible integral flows
