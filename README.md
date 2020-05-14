@@ -216,8 +216,8 @@ After this, to calculate 'team' nodes in the 'min-cut' check which edges from th
 
 Since it isn't easy to explain the concept of min-cut to everyone so we can provide a certificate of elimination by calculating the average wins of the teams in the min-cut. This average is found to be greater than w[x]+lefts[x].
 
-TIME COMPLEXITY OF THE PROGRAM: O(V*max_flow*E) where V is the number of teams in the tournament & E is the number of edges
-SPACE COMPLEXITY OF THE PROGRAM: O(V^4) where V is the number of teams in the tournament used up in 'graph' and 'rGraph'
+**TIME COMPLEXITY OF THE PROGRAM:** O(V*max_flow*E) where V is the number of teams in the tournament & E is the number of edges.
+**SPACE COMPLEXITY OF THE PROGRAM:** O(V^4) where V is the number of teams in the tournament used up in 'graph' and 'rGraph'
 
 **OVERALL TOP VIEW OF THE PROGRAM:**
 The program takes input from a file "input.txt" having the league table of a tournament and output which teams are eliminated from the league tournament which many newspapers often get wrong. Although, the program uses max flow algorithm still the output contains a convincing certificate of elimination which can be explained to anyone easily.
